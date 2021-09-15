@@ -45,7 +45,7 @@ body {
   width: 100%;
   height: 61px;
   background: rgba(45,45,45,1);
-  opacity: 1;
+  opacity: 1;s
   position: relative;
   top: 0px;
   left: 0px;
@@ -215,6 +215,7 @@ body {
   text-align: left;
   margin-left: 10%;
   margin-bottom: 5%;
+  top: 20px;
 }
 .five {
   width: 112px;
