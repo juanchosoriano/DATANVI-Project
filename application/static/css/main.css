@@ -45,7 +45,7 @@ body {
   width: 100%;
   height: 61px;
   background: rgba(45,45,45,1);
-  opacity: 1;s
+  opacity: 1;
   position: relative;
   top: 0px;
   left: 0px;
@@ -55,8 +55,8 @@ body {
 .v2_8 {
   color: rgba(255,255,255,1);
   position: relative;
-  font-family: Orbitron;
-  font-weight: Regular;
+  font-family: Barlow;
+  font-weight: Bold;
   font-size: 3.75vw;
   opacity: 1;
   text-align: center;
@@ -65,17 +65,33 @@ body {
   padding-top: 10%;
 }
 .v3_3 {
-  width: 100%;
+  width: 70%;
   color: rgba(255,255,255,1);
   position: relative;
   font-size: 0.938vw;
+  font-weight: 500;
   opacity: 1;
+  font-family: 'Barlow Condensed', sans-serif;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  text-justify: inter-word;
+  margin: auto;
 }
+
+#subtext{
+  top: 20px;
+  color: rgba(255,255,255,1);
+  font-size: 22px;
+
+  font-family: 'Manrope', sans-serif;
+  position: relative;
+  margin:auto;
+  text-align:center;
+}
+
 .v3_7 {
   width: 508px;
   height: 316px;
+  top: 100px;
   background-image: url("/static/images/v3_7.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -116,11 +132,12 @@ body {
   width: 90%;
   color: rgba(255,255,255,1);
   position: relative;
-  font-family: Orbitron;
+  font-family: Barlow;
+  text-align: left;
+  text-justify: inter-word;
   font-weight: Bold;
   font-size: 64px;
   opacity: 1;
-  text-align: left;
   top: 5%;
   margin-left: 5%;
 }
@@ -133,7 +150,6 @@ body {
   top: 0px;
   left: 0px;
   overflow: hidden;
-
 }
 
 .dropdown {
@@ -148,11 +164,13 @@ body {
   margin: auto;
 }
 .three {
-  margin-top: 10%;
+  top: 20%;
+  position: relative;
 }
 .four {
   /* width: 70%;
   height: 40%; */
+  top: 10%;
   width:fit-content;
   height:fit-content;
   background: rgba(70,70,70,1);
@@ -164,7 +182,6 @@ body {
   border-bottom-right-radius: 38px;
   overflow: hidden;
   margin: auto;
-  margin-top: 5%;
   text-align: center;
 }
 .gref {
@@ -194,12 +211,14 @@ body {
   height: 28%;
   color: rgba(255,255,255,1);
   position: relative;
-  font-family: Inter;
-  font-weight: Regular;
-  font-size: 18px;
+  font-family: 'Manrope';
+  font-weight: Medium;
+  font-size: 20px;
   margin-left: 10%;
   opacity: 1;
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
+  top: 0px
 }
 .name {
   color: #fff;
@@ -208,14 +227,14 @@ body {
   width: 100%;
   color: rgba(255,255,255,1);
   position: relative;
-  font-family: Orbitron;
+  font-family: 'Barlow';
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 48px;
   opacity: 1;
   text-align: left;
   margin-left: 10%;
   margin-bottom: 5%;
-  top: 20px;
+  top: 50px;
 }
 .five {
   width: 112px;
@@ -441,44 +460,52 @@ body {
   text-align: left;
 }
 .v22_27 {
-  width: 206px;
-  color: rgba(255,255,255,1);
-  position: relative;
-  font-family: Orbitron;
-  font-weight: Bold;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
+    width: 100%;
+    height: 40%;
+    left: 10%;
+    color: rgba(255,255,255,1);
+    position: relative;
+    font-family: Orbitron;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
 }
 .v22_31 {
-  width: 197px;
-  color: rgba(255,255,255,1);
-  position: relative;
-  font-family: Orbitron;
-  font-weight: Bold;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
+    width: 100%;
+    height: 40%;
+    left: 10%;
+    color: rgba(255,255,255,1);
+    position: relative;
+    font-family: Orbitron;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
 }
 .v22_32 {
-  width: 171px;
-  color: rgba(255,255,255,1);
-  position: relative;
-  font-family: Orbitron;
-  font-weight: Bold;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
+    width: 100%;
+    height: 40%;
+    left: 10%;
+    color: rgba(255,255,255,1);
+    position: relative;
+    font-family: Orbitron;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
 }
 .v22_30 {
-  width: 167px;
-  color: rgba(255,255,255,1);
-  position: relative;
-  font-family: Orbitron;
-  font-weight: Bold;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
+    width: 100%;
+    height: 40%;
+    left: 10%;
+    color: rgba(255,255,255,1);
+    position: relative;
+    font-family: Orbitron;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
 }
 .v22_33 {
   width: 151px;
@@ -489,4 +516,13 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: left;
+}
+
+select {
+    width: 50%;
+    height: 70%;
+}
+
+#finalform {
+    bottom: 10%;
 }

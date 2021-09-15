@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Barlow:wght@700&family=Manrope&family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
 		<link href="../static/css/main.css?v=1.0.0" rel="stylesheet" />
 
 		<title>
@@ -24,10 +24,10 @@
 			<span class="v21_15">
 				Overall Game Anxiety Levels
 			</span>
-			<form method = "POST" >
+			<form id="finalForm" method = "POST" >
 				<div class="v22_17">
 					<div class="v22_22">
-						Age Group:
+						Age:
 					</div>
 					<div class="v22_27">
 						<input name="age_input", type="number">
@@ -72,7 +72,7 @@
 						</select>
 					</div>
 				</div>
-				<input type="submit">
+				<input id = "submission", type ="submit">
 			</form>
 		</div>
 		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
