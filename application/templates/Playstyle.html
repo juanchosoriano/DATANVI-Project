@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+		<link href="../static/css/main.css?v=1.0.0" rel="stylesheet" />
+
+		<title>
+			Document
+		</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="one">
+				<div class="Question">
+					How does the playstyle affect the gamer’s anxiety levels?
+				</div>
+				<div class="three">
+					<div class="dropdown">
+					</div>
+				</div>
+				<div class="four" id="gref">
+					<div class="gref">
+					</div>
+				</div>			
+			</div>
+
+			<div class="header">
+				
+			</div>
+
+			<div class = "right_panel">
+				<div class="styleImg">
+				
+				</div>
+				<div class="DYK">
+					Did you know?
+				</div>
+				<div class="Info">
+					Info of the category here
+				</div>
+			</div>
+			
+			<div class="name">
+				
+			</div>
+			
+			<a href=Reason>
+				<div class="five">
+				</div>
+			</a>
+			<a href =Gender>
+				<div class  ="six">
+				</div>
+			</a>
+		</div>
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+		<script>
+			var graph3 = {{ graph3JSON | safe}};
+			Plotly.plot("gref", graph3, {})
+		</script>
+	</body>
+</html>

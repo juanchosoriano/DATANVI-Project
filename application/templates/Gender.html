@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+		<link href="../static/css/main.css?v=1.0.0" rel="stylesheet" />
+
+		<title>
+			Gender
+		</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="one">
+				<div class="Question">
+					Does the gender of the individual gamer affect gaming anxiety?
+				</div>
+				<div class="three">
+					<div class="dropdown">
+					</div>
+				</div>
+				<div class="four" id="gref">
+					<div class="gref">
+					</div>
+				</div>			
+			</div>
+
+			<div class="header">
+				
+			</div>
+
+			<div class = "right_panel">
+				<div class="GenderImg">
+				
+				</div>
+				<div class="DYK">
+					Did you know?
+				</div>
+				<div class="Info">
+					Info of the category here
+				</div>
+			</div>
+			
+			<div class="name">
+				
+			</div>
+			
+			<a href=Playstyle>
+				<div class="five">
+				</div>
+			</a>
+			<a href=ageGroup>
+				<div class = "six">
+				</div>
+			</a>
+		</div>
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+		<script>
+			var graph2 = {{ graph2JSON | safe}};
+			Plotly.plot("gref", graph2, {})
+		</script>
+	</body>
+</html>

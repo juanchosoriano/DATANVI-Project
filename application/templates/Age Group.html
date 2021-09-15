@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+		<link href="../static/css/main.css?v=1.0.0" rel="stylesheet" />
+
+		<title>
+			Age Group
+		</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="one">
+				<div class="Question">
+					What is the age-group that is most likely affected by gaming anxiety?
+				</div>
+					<div class="three">
+						<form method="POST">
+							<input name="text", type="number">
+							<input type="submit">
+						</form>
+					</div>
+		
+				<div class="four" id="gref">
+					<div class="gref">
+					</div>
+				</div>			
+			</div>
+
+			<div class="header">
+				
+			</div>
+
+			<div class = "right_panel">
+				<div class="AgeImg">
+				
+				</div>
+				<div class="DYK">
+					Did you know?
+				</div>
+				<div class="Info">
+					Info of the category here
+				</div>
+			</div>
+			
+			<div class="name">
+				
+			</div>
+			
+			<a href=Gender>
+				<div class="five">
+				</div>
+			</a>
+		</div>
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+		<script>
+			var graph1 = {{ graph1JSON | safe}};
+			Plotly.plot("gref", graph1, {})
+		</script>
+	</body>
+</html>
