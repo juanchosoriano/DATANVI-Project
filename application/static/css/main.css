@@ -163,14 +163,22 @@ body {
   text-align: center;
   margin: auto;
 }
+
 .three {
   top: 20%;
   position: relative;
 }
 
 #agebox {
-  width: 40px;
-  height: 20px;
+  position: relative;
+  top: 35%;
+  border-radius: 50px;
+  font-family: Manrope;
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+  width: 70px;
+  height: 50px;
 }
 
 .four {
@@ -186,6 +194,7 @@ body {
   border-top-right-radius: 38px;
   border-bottom-left-radius: 38px;
   border-bottom-right-radius: 38px;
+  font-family: Manrope;
   overflow: hidden;
   margin: auto;
   text-align: center;
@@ -334,9 +343,10 @@ body {
   width: 35%;
   height: 80%;
   background: rgba(35,35,35,1);
+  font-family: Manrope;
   opacity: 1;
   position: absolute;
-  bottom: 0%;
+  bottom: 10%;
   right: 5%;
   border-top-left-radius: 32px;
   border-top-right-radius: 32px;
@@ -361,7 +371,7 @@ body {
   position: absolute;
   top: 109px;
   left: 98px;
-  font-family: Orbitron;
+  font-family: Barlow;
   font-weight: Bold;
   font-size: 80px;
   opacity: 1;
@@ -382,7 +392,7 @@ body {
   margin-top: 20%;
 }
 .v22_17 {
-  width: 41%;
+  width: 28%;
   height: 11%;
   background: rgba(35,35,35,1);
   opacity: 1;
@@ -390,9 +400,11 @@ body {
   top: 35%;
   left: 0px;
   overflow: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .v22_21 {
-  width: 41%;
+  width: 28%;
   height: 11%;
   background: rgba(35,35,35,1);
   opacity: 1;
@@ -400,9 +412,11 @@ body {
   top: 49%;
   left: 0px;
   overflow: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .v22_20 {
-  width: 41%;
+  width: 28%;
   height: 11%;
   background: rgba(35,35,35,1);
   opacity: 1;
@@ -410,9 +424,11 @@ body {
   top: 63%;
   left: 0px;
   overflow: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .v22_19 {
-  width: 41%;
+  width: 28%;
   height: 11%;
   background: rgba(35,35,35,1);
   opacity: 1;
@@ -421,49 +437,134 @@ body {
   left: 0px;
   overflow: hidden;
   display: inline-block;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
+.button_div {
+  width: 14%;
+  height: 5.5%;
+  background: rgba(35,35,35,1);
+  opacity: 1;
+  position: absolute;
+  top: 91%;
+  left: 0px;
+  overflow: hidden;
+  display: inline-block;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#submission {
+  position: relative;
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 80%;
+  height: 50%;
+  border-radius: 50px;
+  font-size: 22px;
+  font-family: Manrope;
+  font-weight: bold;
+}
+
+#submitage {
+  position: relative;
+  margin-left: 2%;
+  margin-top: 5%;
+  width: 20%;
+  height: 50%;
+  border-radius: 50px;
+  font-size: 22px;
+  font-family: Manrope;
+  font-weight: bold;
+}
+
+#desc {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+  width: 100%;
+  height: 30px;
+  margin: auto;
+}
+
+.age_input {
+  position: relative;
+  top: 35%;
+  border-radius: 50px;
+  font-family: Manrope;
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+  width: 70px;
+  height: 50px;
+}
+
+.final_input {
+  position: relative;
+  top: 35%;
+  border-radius: 50px;
+  font-family: Manrope;
+  font-weight: bold;
+  font-size: 22px;
+  width: 500px;
+  height: 50px;
+}
+
 .v22_22 {
   width: 220px;
   color: rgba(255,255,255,1);
   position: relative;
-  font-family: Orbitron;
+  font-family: Barlow;
   font-weight: Bold;
   font-size: 36px;
   opacity: 1;
   text-align: left;
   display: inline-block;
+  left: 10%;
+  top: 10%;
 }
 .v22_24 {
   width: 201px;
   color: rgba(255,255,255,1);
   position: relative;
-  font-family: Orbitron;
+  font-family: Barlow;
   font-weight: Bold;
   font-size: 36px;
   opacity: 1;
   text-align: left;
   display: inline-block;
+  left: 10%;
+  top: 10%;
 }
 .v22_25 {
   width: 161px;
   color: rgba(255,255,255,1);
   position: relative;
-  font-family: Orbitron;
+  font-family: Barlow;
   font-weight: Bold;
   font-size: 36px;
   opacity: 1;
   text-align: left;
   display: inline-block;
+  left: 10%;
+  top: 10%;
 }
 .v22_23 {
   width: 156px;
   color: rgba(255,255,255,1);
   position: relative;
-  font-family: Orbitron;
+  font-family: Barlow;
   font-weight: Bold;
   font-size: 36px;
   opacity: 1;
   text-align: left;
+  left: 10%;
+  top: 10%;
 }
 .v22_27 {
     width: 100%;

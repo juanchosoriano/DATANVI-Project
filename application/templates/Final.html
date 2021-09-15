@@ -12,25 +12,23 @@
 	<body>
 		<div class="v19_2">
 			<div class="v19_3" id="gref">
-				<div class="v21_16">
-					<div class="v22_33">
-						Graph here
-					</div>
-				</div>
-			</div>
-			<div class="v19_5">
 				
 			</div>
-			<span class="v21_15">
+			<div class="v21_15">
 				Overall Game Anxiety Levels
-			</span>
+				<div id = desc>
+					Feel free to experiment with different inputs for age, gender, reason for playing, and playstyle on this screen!
+					Avoid leaving the age input blank! In case the chart does not appear once you have submitted your inputs, it means
+					that the data does not match with any data in the database for those specific inputs (sorry!).
+				</div>
+			</div>
 			<form id="finalForm" method = "POST" >
 				<div class="v22_17">
 					<div class="v22_22">
 						Age:
 					</div>
 					<div class="v22_27">
-						<input name="age_input", type="number">
+						<input name="age_input", type="number" class = "age_input">
 					</div>
 				</div>
 				<div class="v22_21">
@@ -38,7 +36,7 @@
 						Gender:
 					</div>
 					<div class="v22_30">
-						<select name="gender_input" method="GET" action="/Final">
+						<select name="gender_input" method="GET" action="/Final" class = "final_input">
 							<option value="{{choices_gender[0]}}" selected>{{choices_gender[0]}}</option>
 							{% for gender in choices_gender[1:] %}
 								<option value="{{gender}}">{{gender}}</option>
@@ -51,7 +49,7 @@
 						Playstyle:
 					</div>
 					<div class="v22_31">
-						<select name="playstyle_input" method="GET" action="/Final">
+						<select name="playstyle_input" method="GET" action="/Final" class = "final_input">
 							<option value="{{choices_playstyle[0]}}" selected>{{choices_playstyle[0]}}</option>
 							{% for playstyle in choices_playstyle[1:] %}
 								<option value="{{playstyle}}">{{playstyle}}</option>
@@ -64,7 +62,7 @@
 						Reason: 
 					</div>
 					<div class="v22_32">
-						<select name="reason_input" method="GET" action="/Final">
+						<select name="reason_input" method="GET" action="/Final" class = "final_input">
 							<option value="{{choices_reasons[0]}}" selected>{{choices_reasons[0]}}</option>
 							{% for reason in choices_reasons[1:] %}
 								<option value="{{reason}}">{{reason}}</option>
@@ -72,7 +70,9 @@
 						</select>
 					</div>
 				</div>
-				<input id = "submission", type ="submit">
+				<div class = "button_div">
+					<input id = "submission", type ="submit">
+				</div>
 			</form>
 		</div>
 		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
