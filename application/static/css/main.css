@@ -402,53 +402,41 @@ body {
   margin-top: 20%;
 }
 .v22_17 {
-  width: 28%;
-  height: 11%;
-  background: rgba(35,35,35,1);
+  width: 50%;
+  height: 20%;
   opacity: 1;
   position: absolute;
   top: 35%;
   left: 0px;
   overflow: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
 }
 .v22_21 {
-  width: 28%;
-  height: 11%;
-  background: rgba(35,35,35,1);
+  width: 50%;
+  height: 20%;
   opacity: 1;
   position: absolute;
   top: 49%;
   left: 0px;
   overflow: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
 }
 .v22_20 {
-  width: 28%;
-  height: 11%;
-  background: rgba(35,35,35,1);
+  width: 50%;
+  height: 20%;
   opacity: 1;
   position: absolute;
   top: 63%;
   left: 0px;
   overflow: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
 }
 .v22_19 {
-  width: 28%;
-  height: 11%;
-  background: rgba(35,35,35,1);
+  width: 50%;
+  height: 20%;
   opacity: 1;
   position: absolute;
   top: 77%;
   left: 0px;
   overflow: hidden;
   display: inline-block;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
 }
 .button_div {
   width: 14%;
