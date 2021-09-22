@@ -204,9 +204,11 @@ body {
   text-align: center;
 }
 .gref {
-  /* width: 140px; */
+  width: 70%;
+	/*
   width:fit-content;
   height:fit-content;
+	*/
   color: rgba(255,255,255,1);
   position: relative;
   font-family: Inter;
