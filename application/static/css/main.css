@@ -111,36 +111,39 @@ body {
   top: 0px;
   left: 0px;
   overflow: hidden;
+  display:block;
 }
 .one {
-  width: 40%;
-  height: 95%;
+  width: 100%;
+  height: 50%;
   background: rgba(35,35,35,1);
   opacity: 1;
   position: relative;
-  top: 2%;
-  left: 3%;
+  bottom: 0%;
+  left: 2%;
+  right: 2%;
   border-top-left-radius: 32px;
   border-top-right-radius: 32px;
   border-bottom-left-radius: 32px;
   border-bottom-right-radius: 32px;
   overflow: hidden;
   display: inline-block;
-  text-align: center;
 } 
 .Question {
-  width: 90%;
+  width: 20%;
   color: rgba(255,255,255,1);
   position: relative;
-  font-family: Barlow;
-  text-align: left;
-  text-justify: inter-word;
   font-weight: Bold;
   font-size: 64px;
   opacity: 1;
-  top: 5%;
+  text-align: left;
+  top: 12%;
   margin-left: 5%;
-}
+  float: left;
+  margin-right: 5%;
+  font-family: Barlow;
+  text-justify: inter-word;
+  
 .header {
   width: 100%;
   height: 61px;
@@ -184,7 +187,6 @@ body {
 .four {
   /* width: 70%;
   height: 40%; */
-  top: 10%;
   width:fit-content;
   height:fit-content;
   background: rgba(70,70,70,1);
@@ -214,26 +216,32 @@ body {
 
 .right_panel {
   position: relative;
-  width: 50%;
-  height: 95%;
-  margin-right: 2%;
-  float: right;
-  display: block;
+  width: 100%;
+  height: 50%;
+  float: left;
+  display: inline-block;
+}
+  
+.sub-right_panel {
+	position: relative;
+	height: 100%;
+	width: 60%;
+	float: right;
+	display: block;
 }
 
 .Info {
-  width: 70%;
-  height: 28%;
-  color: rgba(255,255,255,1);
-  position: relative;
   font-family: 'Manrope';
   font-weight: Medium;
   font-size: 20px;
-  margin-left: 10%;
-  opacity: 1;
   text-align: justify;
   text-justify: inter-word;
-  top: 0px
+  top: 0px;
+  height: 60%;
+  width: 28%;
+  color: rgba(255,255,255,1);
+  position: relative;
+  opacity: 1;
 }
 .name {
   color: #fff;
@@ -247,9 +255,7 @@ body {
   font-size: 48px;
   opacity: 1;
   text-align: left;
-  margin-left: 10%;
   margin-bottom: 5%;
-  top: 50px;
 }
 .five {
   width: 112px;
@@ -280,7 +286,7 @@ body {
 .reasonImg {
   width: 378px;
   height: 439px;
-  background: url("/static/images/v12_37.png");
+  background: url("../images/v12_37.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -288,25 +294,26 @@ body {
   position: relative;
   overflow: hidden;
   margin: auto;
-  margin-top: 15%;
+  float: left;
+  left: 10%;
+  margin-top: 2%;
 }
 .AgeImg {
   width: 704px;
   height: 548px;
-  background: url("/static/images/v12_14.png");
+  background: url("../images/v12_14.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: relative;
   overflow: hidden;
-  margin: auto;
-  margin-top: 10%;
+  float: left;
 }
 .GenderImg {
   width: 741px;
   height: 518px;
-  background: url("/static/images/v15_67.png");
+  background: url("../images/v15_67.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -314,12 +321,12 @@ body {
   position: relative;
   overflow: hidden;
   margin: auto;
-  margin-top: 5%;
+  float: left;
 }
 .styleImg {
   width: 704px;
   height: 548px;
-  background: url("/static/images/v14_53.png");
+  background: url("../images/v14_53.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -327,7 +334,7 @@ body {
   position: relative;
   overflow: hidden;
   margin: auto;
-  margin-top: 10%;
+  float: left;
 }
 .v19_2 {
   width: 100%;
