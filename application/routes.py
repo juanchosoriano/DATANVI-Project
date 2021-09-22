@@ -90,7 +90,7 @@ Gamer_Reason = GameAnxiety[['whyplay', 'GAD_T', 'SWL_T', 'SPIN_T']]
 user_age = 19
 @app.route('/')
 def index():
-    return render_template('index.html', title = "Home Page")
+    return render_template('index.html', title = "Gaming Anxiety")
 
 @app.route('/ageGroup')
 def ageGroup():
