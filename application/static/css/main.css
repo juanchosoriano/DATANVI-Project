@@ -190,7 +190,7 @@ body {
   height: 50%;
   background: rgba(70,70,70,1);
   opacity: 1;
-  position: relative;
+  position: absolute;
   border-top-left-radius: 38px;
   border-top-right-radius: 38px;
   border-bottom-left-radius: 38px;
@@ -201,7 +201,7 @@ body {
   text-align: center;
   margin-top: 5%;
 }
-#gref {
+.gref {
   width: fit-content;
   height: fit-content;
   color: rgba(255,255,255,1);
