@@ -185,7 +185,7 @@ body {
 }
 
 .four {
-  width:fit-content;
+  width:60%;
   height:fit-content;
   background: rgba(70,70,70,1);
   opacity: 1;
@@ -200,7 +200,7 @@ body {
   text-align: center;
 }
 .gref {
-  width:fit-content;
+  width:60%;
   height:fit-content;
   color: rgba(255,255,255,1);
   position: relative;
