@@ -185,10 +185,12 @@ body {
 }
 
 .four {
-  /* width: 70%;
-  height: 40%; */
+  width: 70%;
+  height: 40%;
+	/*
   width:fit-content;
   height:fit-content;
+	*/
   background: rgba(70,70,70,1);
   opacity: 1;
   position: relative;
