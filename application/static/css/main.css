@@ -137,7 +137,7 @@ body {
   font-size: 64px;
   opacity: 1;
   text-align: left;
-  top: 12%;
+  top: 20%;
   margin-left: 5%;
   float: left;
   margin-right: 5%;
@@ -439,7 +439,7 @@ body {
   display: inline-block;
 }
 .button_div {
-  width: 14%;
+  width: 50%;
   height: 5.5%;
   opacity: 1;
   position: absolute;
@@ -452,10 +452,10 @@ body {
 }
 #submission {
   position: relative;
-  margin-left: 10%;
-  margin-top: 5%;
-  width: 80%;
-  height: 50%;
+  top: 30%;
+  left: 18%;
+  width: 20%;
+  height: 60%;
   border-radius: 50px;
   font-size: 22px;
   font-family: Manrope;

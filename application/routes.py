@@ -257,5 +257,3 @@ def Final():
         graph5JSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
 
         return render_template('Final.html', graph5JSON=graph5JSON, choices_gender = choices_gender, choices_playstyle = choices_playstyle, choices_reasons = choices_reasons)
-
-
