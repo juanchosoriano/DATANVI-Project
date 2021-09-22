@@ -185,7 +185,7 @@ body {
 }
 
 .four {
-  width:60%;
+  width: 40%;
   height: 70%;
   background: rgba(70,70,70,1);
   opacity: 1;
@@ -202,7 +202,6 @@ body {
 .gref {
   width:60%;
   height: 70%;
-  height:fit-content;
   color: rgba(255,255,255,1);
   position: relative;
   font-family: Inter;
