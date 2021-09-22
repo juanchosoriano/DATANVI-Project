@@ -235,7 +235,7 @@ body {
 }
 
 .Info {
-  font-family: 'Manrope';
+  font-family: Manrope;
   font-weight: Medium;
   font-size: 20px;
   text-align: justify;
@@ -254,7 +254,7 @@ body {
   width: 100%;
   color: rgba(255,255,255,1);
   position: relative;
-  font-family: 'Barlow';
+  font-family: Barlow;
   font-weight: Bold;
   font-size: 48px;
   opacity: 1;
